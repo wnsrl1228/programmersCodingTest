@@ -3,7 +3,7 @@ package prg1LV;
 import java.util.Arrays;
 
 // 과일 장수
-public class Fruiterer {
+public class 과일장수 {
     public int solution(int k, int m, int[] score) {
         int answer = 0;
         Arrays.sort(score);

@@ -1,7 +1,7 @@
 package prg1LV;
 
 //기사단원의 무기
-public class TemplarWeapon {
+public class 기사단원의무기 {
 
     public int solution(int number, int limit, int power) {
         int answer = 0;
