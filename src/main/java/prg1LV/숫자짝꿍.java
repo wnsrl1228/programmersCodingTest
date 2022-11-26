@@ -1,8 +1,5 @@
 package prg1LV;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 public class 숫자짝꿍 {
     public static void main(String[] args) {
 
