@@ -23,6 +23,7 @@ public class 짝지어제거하기 {
         }
         return stack.size() > 0 ? 0 : 1;
     }
+
     public static int solution(String s)
     {
         Stack<Character> stack = new Stack<>();
