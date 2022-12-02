@@ -5,12 +5,7 @@ import java.util.Deque;
 import java.util.Stack;
 
 public class 괄호회전하기 {
-    public static void main(String[] args) {
-        Deque<Character> deque = new ArrayDeque<>();
-        for (Character character : deque) {
-            deque.add(character);
-        }
-    }
+
     public int solution(String s) {
         int answer = 0;
 
