@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page2;
 
 public class n2배열자르기 {
 

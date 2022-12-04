@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page1;
 
 public class 구명보트 {
     public static void main(String[] args) {

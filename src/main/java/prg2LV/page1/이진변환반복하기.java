@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page1;
 
 public class 이진변환반복하기 {
     public int[] solution(String s) {

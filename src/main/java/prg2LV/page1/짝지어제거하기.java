@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page1;
 
 import java.util.Stack;
 

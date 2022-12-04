@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page1;
 
 public class 행렬의곱셈 {
     public int[][] solution(int[][] arr1, int[][] arr2) {

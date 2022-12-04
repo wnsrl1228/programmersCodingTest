@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page1;
 
 public class 점프와순간이동 {
     public int solution(int n) {

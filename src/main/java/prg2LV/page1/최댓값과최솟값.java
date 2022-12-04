@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page1;
 
 public class 최댓값과최솟값 {
     public String solution(String s) {

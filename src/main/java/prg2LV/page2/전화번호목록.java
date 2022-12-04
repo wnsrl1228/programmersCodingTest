@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page2;
 
 import java.util.HashMap;
 import java.util.Map;

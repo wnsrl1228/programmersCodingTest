@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page2;
 
 
 public class k진수에서소수개수구하기 {
@@ -32,6 +32,3 @@ public class k진수에서소수개수구하기 {
     }
 
 }
-
-// 65
-// 26

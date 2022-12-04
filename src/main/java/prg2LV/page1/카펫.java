@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page1;
 
 public class 카펫 {
     public int[] solution(int brown, int yellow) {

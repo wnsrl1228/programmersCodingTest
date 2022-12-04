@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page1;
 
 public class 피보나치수 {
 

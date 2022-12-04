@@ -1,4 +1,4 @@
-package prg2LV;
+package prg2LV.page1;
 
 public class 예상대진표 {
     // 개선된 풀이 (접근 방식은 같음)
