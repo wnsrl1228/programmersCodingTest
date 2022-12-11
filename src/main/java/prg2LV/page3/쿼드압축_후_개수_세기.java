@@ -21,8 +21,8 @@ public class 쿼드압축_후_개수_세기 {
         if (oneCnt == 0) zero++;
         else if (oneCnt == max) one++;
         else {
-            int xm = (xe - xs) / 2;
-            int ym = (ye - ys) / 2;
+            int xm = (xe + xs) / 2;
+            int ym = (ye + ys) / 2;
             press(arr, xs, xm, ys, ym);
             press(arr, xm, xe, ys, ym);
             press(arr, xs, xm, ym, ye);
