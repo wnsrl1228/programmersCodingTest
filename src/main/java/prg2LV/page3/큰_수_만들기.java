@@ -4,9 +4,6 @@ import java.util.Stack;
 
 // 못 품
 public class 큰_수_만들기 {
-    public static void main(String[] args) {
-        solution("1231234",3);
-    }
 
     // 스택을 이용한 풀이
     public String solution1(String number, int k) {
