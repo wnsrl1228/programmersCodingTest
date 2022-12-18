@@ -1,7 +1,31 @@
 package prg2LV.page4;
 
-public class 문자열_압축 {
 
+import java.util.*;
+
+public class 문자열_압축 {
+    public int solution1(int[] menu, int[] order, int k) {
+        int answer = 0;
+
+        int[] people = new int[order.length];
+        int menuTime = 0;
+        for(int i = 0; i< order.length; i++) {
+            int index = i;
+            int totalTime = menu[order[i]] + menuTime;
+            int count = (int) Math.ceil(totalTime / k);
+
+            if (count == 0) {
+                people[index]++;
+            } else {
+                while (count-- > 0) {
+                    people[index++]++;
+                }
+                menuTime = menu[order[i]] % k;
+            }
+        }
+        Arrays.sort(people);
+        return people[people.length - 1];
+    }
     // 다른 사람 풀이, 재귀
     public int solution1(String s) {
         int answer = 0;
@@ -10,7 +34,8 @@ public class 문자열_압축 {
             int result = getSplitedLength(s, i, 1).length();
             answer = i==1 ? result : (answer>result?result:answer);
         }
-
+        String[] aa = {"1","2"};
+        Arrays.sort(aa);
         return answer;
     }
     public StringBuilder getSplitedLength(String ss, int n, int repeat) {
@@ -75,5 +100,5 @@ public class 문자열_압축 {
         }
         return answer;
     }
-}
 
+}
